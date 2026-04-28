@@ -876,7 +876,7 @@ p:last-child { margin-bottom: 0; }
   flex-shrink: 0;
   transition: all 0.2s ease;
   margin-top: 2px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .checkbox-group input[type="checkbox"]:hover {
@@ -1120,8 +1120,8 @@ p:last-child { margin-bottom: 0; }
 }
 
 .contact-form {
-  max-width: 680px;
-  margin: 28px auto 0;
+  max-width: 460px;
+  margin: 28px auto 44px;
   background: #111f35;
   border: 1px solid rgba(212, 180, 131, 0.24);
   border-radius: 16px;
@@ -1147,16 +1147,6 @@ p:last-child { margin-bottom: 0; }
   border-radius: 10px;
   border-color: #31405a;
   background: #0c182b;
-}
-
-.checkbox-group {
-  justify-content: flex-start;
-  gap: 10px;
-  margin: 20px 0 24px;
-}
-
-.checkbox-group input[type="checkbox"] {
-  margin-left: 0;
 }
 
 .submit-btn {
